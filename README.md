@@ -3,7 +3,7 @@
 
 A NodeJS App that allows users to view polls, create polls, and vote on them. The app uses MongoDB for the database, and Stormpath User Management APIs.
 
-You can view the live demo here: 
+You can view the live demo here: https://build-voting-app-codecamp.herokuapp.com
 
 ### The Web App Does the Following:
 * As an authenticated user, I can keep my polls and come back later to access them.
@@ -16,3 +16,4 @@ You can view the live demo here:
 * As an authenticated user, if I don't like the options on a poll, I can create a new option.
 
 
+N.B. I must before fix stormPath api problem

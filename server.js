@@ -6,16 +6,16 @@ var stormpath = require('express-stormpath');
 var app = express();
 var bodyParser = require('body-parser');
 
-var mongoURL = '';
+var mongoURL = 'mongodb://test:test@ds038547.mlab.com:38547/voting-app';
 
 app.use(stormpath.init(app, {
   website: true,
     apiKey: {
-      id: '', 
-      secret: ''
+      id: '12', 
+      secret: '11'
     },
  application: {
-   href: '',
+   href: 'https://api.stormpath.com/v1/applications/q42unYAj6PDLxth9xKXdL',
  }
 }));
 
