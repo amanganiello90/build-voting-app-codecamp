@@ -16,4 +16,4 @@ You can view the live demo here: https://build-voting-app-codecamp.herokuapp.com
 * As an authenticated user, if I don't like the options on a poll, I can create a new option.
 
 
-N.B. I must before fix stormPath api problem
+**N.B. I must before fix stormPath api problem for errors**
